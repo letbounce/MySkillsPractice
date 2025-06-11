@@ -1,0 +1,36 @@
+{
+"skeleton": {
+	"hash": "ZfoVwYWDKsE",
+	"spine": "4.0-from-4.1.23",
+	"x": -1025.27,
+	"y": -1783.08,
+	"width": 2050.54,
+	"height": 3566.16,
+	"images": "D:/HOMEWORK SIGMA/InternshipSlotGame2024/resources/origin.assets/",
+	"audio": "D:/HOMEWORK SIGMA/InternshipSlotGame2024/resources/origin.assets/spines"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "background", "parent": "root" }
+],
+"slots": [
+	{ "name": "atlases/initial/bg2", "bone": "background", "attachment": "atlases/initial/bg" },
+	{ "name": "atlases/initial/bg", "bone": "background", "attachment": "atlases/initial/bg" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"atlases/initial/bg": {
+				"atlases/initial/bg": { "width": 2000, "height": 1150 }
+			},
+			"atlases/initial/bg2": {
+				"atlases/initial/bg": { "scaleX": 1.7831, "scaleY": 1.7831, "rotation": 90, "width": 2000, "height": 1150 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {}
+}
+}

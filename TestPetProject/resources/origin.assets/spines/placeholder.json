@@ -1,0 +1,32 @@
+{
+"skeleton": {
+	"hash": "P+rz2sMIeSM",
+	"spine": "4.0-from-4.1.23",
+	"x": -2918.4,
+	"y": -1641.1,
+	"width": 5836.8,
+	"height": 3283.2,
+	"images": "D:/HOMEWORK SIGMA/InternshipSlotGame2024/resources/origin.assets/",
+	"audio": "D:/HOMEWORK SIGMA/InternshipSlotGame2024/resources/origin.assets/spines"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "mask", "bone": "root" },
+	{ "name": "paytable_poortrait/p1_scatter", "bone": "root", "attachment": "atlases/dev/bg_dark" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"paytable_poortrait/p1_scatter": {
+				"atlases/dev/bg_dark": { "y": 0.5, "scaleX": 3.04, "scaleY": 3.04, "width": 1920, "height": 1080 }
+			}
+		}
+	}
+],
+"animations": {
+	"aspect": {}
+}
+}

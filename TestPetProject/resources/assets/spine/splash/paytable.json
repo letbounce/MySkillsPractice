@@ -1,0 +1,58 @@
+{
+"skeleton": {
+	"hash": "tEGGwlfKWd0",
+	"spine": "4.0-from-4.1.23",
+	"x": -1128.81,
+	"y": -540,
+	"width": 2110.98,
+	"height": 1080,
+	"images": "../",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "background", "parent": "root" },
+	{ "name": "content", "parent": "root", "scaleX": 1.7389, "scaleY": 1.7389 },
+	{ "name": "item1", "parent": "content", "x": -357.71 },
+	{ "name": "item2", "parent": "content", "x": -142.22 },
+	{ "name": "item3", "parent": "content", "x": -62.59, "scaleX": 1.5575, "scaleY": 1.5575 },
+	{ "name": "item4", "parent": "content", "x": 129.67 },
+	{ "name": "item5", "parent": "content", "x": 308.28 }
+],
+"slots": [
+	{ "name": "atlases/initial/bg", "bone": "background", "attachment": "atlases/initial/bg" },
+	{ "name": "atlases/splash/splash_1_reels", "bone": "item1", "attachment": "atlases/splash/splash_1_reels" },
+	{ "name": "atlases/splash/splash_1_wheels", "bone": "item2", "attachment": "atlases/splash/splash_1_wheels" },
+	{ "name": "atlases/splash/splash_2_wilds_1", "bone": "item3", "attachment": "atlases/splash/splash_2_wilds_1" },
+	{ "name": "atlases/splash/splash_2_wilds_2", "bone": "item4", "attachment": "atlases/splash/splash_2_wilds_2" },
+	{ "name": "atlases/splash/splash_2_wilds_3", "bone": "item5", "attachment": "atlases/splash/splash_2_wilds_3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"atlases/initial/bg": {
+				"atlases/initial/bg": { "width": 1920, "height": 1080 }
+			},
+			"atlases/splash/splash_1_reels": {
+				"atlases/splash/splash_1_reels": { "x": -53.43, "width": 476, "height": 366 }
+			},
+			"atlases/splash/splash_1_wheels": {
+				"atlases/splash/splash_1_wheels": { "x": -75.88, "scaleX": -1, "width": 415, "height": 349 }
+			},
+			"atlases/splash/splash_2_wilds_1": {
+				"atlases/splash/splash_2_wilds_1": { "width": 418, "height": 347 }
+			},
+			"atlases/splash/splash_2_wilds_2": {
+				"atlases/splash/splash_2_wilds_2": { "x": 97.66, "width": 410, "height": 347 }
+			},
+			"atlases/splash/splash_2_wilds_3": {
+				"atlases/splash/splash_2_wilds_3": { "x": 45.03, "width": 423, "height": 347 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {}
+}
+}
