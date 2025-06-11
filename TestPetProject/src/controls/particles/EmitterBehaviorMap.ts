@@ -9,8 +9,8 @@ export default class EmitterBehaviorMap {
         {
           type: "moveSpeedStatic",
           config: {
-            min: 100,
-            max: 100,
+            min: 500,
+            max: 1700,
           },
         },
         {
@@ -29,7 +29,7 @@ export default class EmitterBehaviorMap {
           config: {
             accel: 0,
             minSpeed: 0,
-            maxSpeed: 80,
+            maxSpeed: 0,
             minStart: 50,
             maxStart: 70,
           },
@@ -40,7 +40,7 @@ export default class EmitterBehaviorMap {
             anims: [
               {
                 framerate: 10,
-                loop: true,
+                loop: false,
                 textures:
                   ParticleAtlasLoader.getParticleTextures("leaves")
                 ,
