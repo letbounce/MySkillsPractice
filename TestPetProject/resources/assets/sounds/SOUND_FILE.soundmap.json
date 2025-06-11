@@ -1,0 +1,47 @@
+{
+  "src": [
+    "./assets/sounds/SOUND_FILE.mp3",
+    "./assets/sounds/SOUND_FILE.ogg"
+  ],
+  "sprite": {
+    "anticipation": [
+      0,
+      3441.0657596371884
+    ],
+    "spin-button": [
+      4500,
+      966.530612244898
+    ],
+    "cash-symbol": [
+      6000,
+      2109.9999999999995
+    ],
+    "reel-spin": [
+      9500,
+      2684.2176870748294,
+      true
+    ],
+    "fs-game-loop": [
+      13000,
+      24000,
+      true
+    ],
+    "main-game-loop": [
+      37500,
+      38109.387755102034,
+      true
+    ],
+    "free-spin-pop-up": [
+      77000,
+      5931.519274376413
+    ],
+    "btn-click": [
+      83500,
+      1344.0136054421714
+    ],
+    "hover-button": [
+      86000,
+      288.0045351473939
+    ]
+  }
+}

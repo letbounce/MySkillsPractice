@@ -1,0 +1,26 @@
+<font>
+	<info face="outro" size="441" />
+	<common lineHeight="441" scaleW="742" scaleH="827" pages="1" />
+	<pages>
+		<page id="0" file="outro.png" />
+	</pages>
+	<chars count="15">
+		<char id="36" x="564" y="272" width="168" height="284" xoffset="0" yoffset="186" xadvance="245" /><!-- $ -->
+		<char id="48" x="193" y="541" width="185" height="268" xoffset="0" yoffset="174" xadvance="262" /><!-- 0 -->
+		<char id="49" x="564" y="557" width="146" height="269" xoffset="0" yoffset="172" xadvance="223" /><!-- 1 -->
+		<char id="50" x="193" y="270" width="188" height="270" xoffset="0" yoffset="171" xadvance="265" /><!-- 2 -->
+		<char id="51" x="379" y="541" width="184" height="274" xoffset="0" yoffset="171" xadvance="261" /><!-- 3 -->
+		<char id="52" x="0" y="0" width="196" height="269" xoffset="0" yoffset="172" xadvance="273" /><!-- 4 -->
+		<char id="53" x="562" y="0" width="179" height="271" xoffset="0" yoffset="171" xadvance="256" /><!-- 5 -->
+		<char id="54" x="382" y="0" width="179" height="276" xoffset="0" yoffset="171" xadvance="256" /><!-- 6 -->
+		<char id="55" x="0" y="552" width="192" height="271" xoffset="0" yoffset="170" xadvance="269" /><!-- 7 -->
+		<char id="56" x="0" y="270" width="192" height="281" xoffset="0" yoffset="168" xadvance="269" /><!-- 8 -->
+		<char id="57" x="197" y="0" width="181" height="266" xoffset="0" yoffset="179" xadvance="258" /><!-- 9 -->
+		<char id="44" x="382" y="277" width="96" height="89" xoffset="0" yoffset="381" xadvance="173" /><!-- , -->
+		<char id="46" x="382" y="367" width="91" height="53" xoffset="0" yoffset="388" xadvance="168" /><!-- . -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="536" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="4288" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

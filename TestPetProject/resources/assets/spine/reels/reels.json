@@ -1,0 +1,129 @@
+{
+"skeleton": {
+	"hash": "Nthvlhehia0",
+	"spine": "4.0-from-4.1-from-4.2.40",
+	"x": -62.52,
+	"y": -853.96,
+	"width": 1544.4,
+	"height": 1291.56,
+	"images": "../atlases/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "root_offset", "parent": "root", "x": 709.31, "y": -429.72 },
+	{ "name": "reels_main", "parent": "root_offset" },
+	{ "name": "bg", "parent": "reels_main" },
+	{ "name": "fg", "parent": "reels_main", "x": 3.5 },
+	{ "name": "replacments", "parent": "reels_main" },
+	{ "name": "reels1", "parent": "replacments", "x": -545.72, "y": 433.86 },
+	{ "name": "reels2", "parent": "replacments", "x": -272.61, "y": 433.86 },
+	{ "name": "reels3", "parent": "replacments", "x": 0.16, "y": 433.86 },
+	{ "name": "reels4", "parent": "replacments", "x": 272.8, "y": 433.86 },
+	{ "name": "reels5", "parent": "replacments", "x": 545.3, "y": 433.86 },
+	{ "name": "reels", "parent": "replacments", "x": -707.44, "y": 425.44 }
+],
+"slots": [
+	{ "name": "reels_mask", "bone": "root_offset", "attachment": "reels_mask" },
+	{ "name": "bg", "bone": "bg", "attachment": "bg" },
+	{ "name": "reels_content1", "bone": "reels1", "attachment": "dev/cross" },
+	{ "name": "reels_content2", "bone": "reels2", "attachment": "dev/cross" },
+	{ "name": "reels_content3", "bone": "reels3", "attachment": "dev/cross" },
+	{ "name": "reels_content4", "bone": "reels4", "attachment": "dev/cross" },
+	{ "name": "reels_content5", "bone": "reels5", "attachment": "dev/cross" },
+	{ "name": "reels_content", "bone": "reels", "attachment": "dev/cross" },
+	{ "name": "reels-reels_foreground", "bone": "fg" },
+	{ "name": "fg", "bone": "fg", "attachment": "fg" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"reels_content": {
+				"dev/cross": { "width": 50, "height": 50 }
+			},
+			"reels_content1": {
+				"dev/cross": { "width": 50, "height": 50 }
+			},
+			"reels_content2": {
+				"dev/cross": { "width": 50, "height": 50 }
+			},
+			"reels_content3": {
+				"dev/cross": { "width": 50, "height": 50 }
+			},
+			"reels_content4": {
+				"dev/cross": { "width": 50, "height": 50 }
+			},
+			"reels_content5": {
+				"dev/cross": { "width": 50, "height": 50 }
+			},
+			"reels_mask": {
+				"reels_mask": {
+					"type": "clipping",
+					"end": "reels-reels_foreground",
+					"vertexCount": 10,
+					"vertices": [ -697.97, -404.53, -698.11, 421.46, -525.01, 437.23, -293.31, 511.57, -103.89, 579.43, 8.28, 595.06, 132.58, 573.83, 483.6, 450.11, 702.11, 422.15, 702.2, -405.42 ],
+					"color": "ce3a3aff"
+				}
+			}
+		}
+	},
+	{
+		"name": "fs",
+		"attachments": {
+			"bg": {
+				"bg": {
+					"name": "reels/reels_free",
+					"x": -0.31,
+					"y": 94.28,
+					"scaleX": 1.17,
+					"scaleY": 1.4,
+					"width": 1219,
+					"height": 721
+				}
+			},
+			"fg": {
+				"fg": {
+					"name": "reels/reels_free_foreground",
+					"x": -3.13,
+					"y": 221.54,
+					"scaleX": 1.17,
+					"scaleY": 1.41,
+					"width": 1320,
+					"height": 916
+				}
+			}
+		}
+	},
+	{
+		"name": "main",
+		"attachments": {
+			"bg": {
+				"bg": {
+					"name": "reels/reels",
+					"x": -0.31,
+					"y": 92.53,
+					"scaleX": 1.17,
+					"scaleY": 1.4,
+					"width": 1219,
+					"height": 721
+				}
+			},
+			"fg": {
+				"fg": {
+					"name": "reels/reels_foreground",
+					"x": -3.13,
+					"y": 221.54,
+					"scaleX": 1.17,
+					"scaleY": 1.41,
+					"width": 1320,
+					"height": 916
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {}
+}
+}
