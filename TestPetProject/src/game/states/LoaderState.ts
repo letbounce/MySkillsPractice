@@ -44,7 +44,7 @@ export default class LoaderState extends State<TGameStates> {
                             {alias: "win_counter", src: "./assets/fonts/bitmap/win_counter.xml"},
                             {alias: "intro", src: "./assets/fonts/bitmap/intro.xml"},
                             {alias: "outro", src: "./assets/fonts/bitmap/outro.xml"},
-                            {alias: "Louisianne", src: "./assets/fonts/Louisianne.ttf"},
+                            {alias: "AlmondMilk", src: "./assets/fonts/AlmondMilk.ttf"},
                             {alias: "TheBoldFont", src: "./assets/fonts/TheBoldFont.ttf"},
                         ],
                     },
