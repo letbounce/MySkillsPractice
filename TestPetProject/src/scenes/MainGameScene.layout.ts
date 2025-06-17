@@ -62,8 +62,8 @@ const header: PartialLayout = {
                     align: "c",
                 },
                 "1920/887": {
-                    height: "70%",
-                    width: "35%",
+                    height: "130%",
+                    width: "100%",
                     align: "c",
                 },
             },
@@ -436,43 +436,43 @@ const rightSideBox: PartialLayout = {
                     scaleBy: "fit.in",
                     aspects: {
                         "1920/4157": {
-                            width: "30%",
-                            height: "27%",
+                            width: "60%",
+                            height: "54%",
                             align: "b",
                             top: "-42%",
                             left: "29%",
                         },
                         "1920/3408": {
-                            width: "30%",
-                            height: "30%",
+                            width: "60%",
+                            height: "60%",
                             align: "b",
                             top: "-42%",
                             left: "22%",
                         },
                         "1920/2561": {
-                            width: "45%",
-                            height: "45%",
+                            width: "90%",
+                            height: "90%",
                             align: "c",
                             top: "-5%",
                             left: "20%",
                         },
                         "1920/1440": {
-                            width: "90%",
-                            height: "85%",
+                            width: "180%",
+                            height: "170%",
                             align: "t",
                             top: "-210%",
                             left: "0%",
                         },
                         "1920/1082": {
-                            width: "90%",
-                            height: "65%",
+                            width: "180%",
+                            height: "130%",
                             align: "t",
                             top: "-80%",
                             left: "0%",
                         },
                         "1920/887": {
-                            width: "90%",
-                            height: "65%",
+                            width: "120%",
+                            height: "100%",
                             align: "t",
                             top: "-65%",
                             left: "0%",
@@ -521,8 +521,8 @@ const rightSideBox: PartialLayout = {
                             left: "0%"
                         },
                         "1920/887": {
-                            width: "90%",
-                            height: "100%",
+                            width: "140%",
+                            height: "140%",
                             align: "t",
                             top: "-70%",
                             left: "0%"
@@ -538,6 +538,14 @@ const rightSideBox: PartialLayout = {
                     layouts: [
                         {
                             name: "bet_selector",
+                            width: "150%",
+                            height: "60%",
+                            avoidBounding: "yes",
+                            alignIn: "c",
+                            align: "b",
+                            scaleBy: "fit.in",
+                            left: "175%",
+                            top: "-36.5%",
                         },
                     ],
                     aspects: {
@@ -563,8 +571,8 @@ const rightSideBox: PartialLayout = {
                             left: "-23%",
                         },
                         "1920/1440": {
-                            width: "85%",
-                            height: "85%",
+                            width: "120%",
+                            height: "100%",
                             align: "t",
                             top: "-90%",
                             left: "0%",
@@ -577,8 +585,8 @@ const rightSideBox: PartialLayout = {
                             left: "0%",
                         },
                         "1920/887": {
-                            width: "90%",
-                            height: "65%",
+                            width: "100%",
+                            height: "100%",
                             align: "t",
                             top: "-30%",
                             left: "0%",
@@ -834,7 +842,7 @@ const reelBoxAndWheelContrainer: PartialLayout = {
                 },
                 "1920/887": {
                     top: "18%",
-                    left: "0%",
+                    left: "2%",
                     width: "15%",
                 },
             },

@@ -21,7 +21,7 @@ export default class SlotMachineBetControl extends MainControl {
         super.init();
         this.container.addChild(this.labelValue);
         this.labelValue.anchor.set(0.5, 0.5);
-        this.labelValue.position.set(0, 20);
+        this.labelValue.position.set(0, 25);
     }
 
     dispose() {

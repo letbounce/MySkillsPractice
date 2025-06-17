@@ -86,7 +86,7 @@ const footer: PartialLayout = {
                         },
                         {
                             name: "bet_selector",
-                            width: "110%",
+                            width: "10%",
                             height: "40%",
                             avoidBounding: "yes",
                             alignIn: "c",
