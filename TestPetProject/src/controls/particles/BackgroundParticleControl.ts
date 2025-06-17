@@ -12,10 +12,10 @@ export default class BackgroundParticleControl
   constructor() {
     const behaviorMap: EmitterBehaviorMap = new EmitterBehaviorMap();
     const backgroundParticleConfig: EmitterConfigV3 = {
-      lifetime: { min: 20, max: 20 },
+      lifetime: { min: 3, max: 5 },
       frequency: 1,
-      particlesPerWave: 5,
-      maxParticles: 100,
+      particlesPerWave: 3,
+      maxParticles: 10,
       pos: { x: 0, y: 0 },
       autoUpdate: true,
       behaviors: behaviorMap.EMITTER_BEHAVIOR_MAP.get("background")!,

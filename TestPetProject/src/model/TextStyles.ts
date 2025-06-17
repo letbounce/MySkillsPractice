@@ -2,7 +2,7 @@ import {ITextStyle} from "@pixi/text";
 
 export default class TextStyles {
     static readonly SYMBOL_DEV_INFO: Partial<ITextStyle> = {
-        fontFamily: "Louisianne",
+        fontFamily: "AlmondMilk",
         fill: "white",
         fontSize: 60,
         fontWeight: "bold",
@@ -12,7 +12,7 @@ export default class TextStyles {
     };
 
     static readonly TITLE: Partial<ITextStyle> = {
-        fontFamily: "Louisianne",
+        fontFamily: "AlmondMilk",
         fill: "white",
         fontSize: 60,
         fontWeight: "bold",
@@ -22,7 +22,7 @@ export default class TextStyles {
     };
 
     static readonly GAME_LABEL: Partial<ITextStyle> = {
-        fontFamily: "Louisianne",
+        fontFamily: "AlmondMilk",
         fill: "white",
         fontSize: 120,
         fontWeight: "bold",
@@ -31,10 +31,10 @@ export default class TextStyles {
         strokeThickness: 6,
     };
     static readonly MESSAGE_BAR_TEXT_STYLE: Partial<ITextStyle> = {
-        fontFamily: "Louisianne",
+        fontFamily: "AlmondMilk",
         stroke: "rgba(68,62,30,0.4)",
-        strokeThickness: 8,
-        fill: "#f1d5c7",
+        strokeThickness: 4,
+        fill: ["azure", "cyan", "magenta"],
         fontSize: 30,
         fontWeight: "bolder",
         lineJoin: "round",
@@ -42,12 +42,12 @@ export default class TextStyles {
     };
 
     static readonly INTRO_GAME_FOOTER_TITLE: Partial<ITextStyle> = {
-        fontFamily: "Louisianne",
+        fontFamily: "AlmondMilk",
         fontSize: 90,
         stroke: "#25727e",
         strokeThickness: 4,
         align: "center",
-        fill: ["#dbde9e", "#f3e6c7", "#e1e39d"],
+        fill: ["azure", "cyan", "magenta"],
         fillGradientStops: [0.3, 0.7],
         dropShadow: true,
         dropShadowAngle: 10,
@@ -63,16 +63,16 @@ export default class TextStyles {
     };
 
     static readonly LABEL_TITLE_STYLE: Partial<ITextStyle> = {
-        fontFamily: "Louisianne",
-        fill: "#e8bca8",
-        fontSize: 20,
+        fontFamily: "AlmondMilk",
+        fill: ["azure", "cyan"],
+        fontSize: 25,
         fontWeight: "bold",
         lineJoin: "round",
         // balance, win, bet
     };
 
     static readonly LABEL_TEXT_STYLE: Partial<ITextStyle> = {
-        fontFamily: "Louisianne",
+        fontFamily: "AlmondMilk",
         fill: "white",
         fontSize: 30,
         fontWeight: "bold",
@@ -119,8 +119,8 @@ export default class TextStyles {
 
     static readonly PAYTABLE_WHITE_TITLE_STYLE: Partial<ITextStyle> = {
         ...this.PAYTABLE_TITLE_STYLE,
-        fontFamily: "Louisianne",
-        fill: "#ffffff",
+        fontFamily: "AlmondMilk",
+        fill: ["magenta", "purple"],
         strokeThickness: 0,
         align: "center",
     };

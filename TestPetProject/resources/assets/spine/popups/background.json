@@ -1,0 +1,40 @@
+{
+"skeleton": {
+	"hash": "qEuThFF2CBE",
+	"spine": "4.0-from-4.1.17",
+	"x": 0.02,
+	"y": -1080.01,
+	"width": 1920,
+	"height": 1080,
+	"images": "../",
+	"audio": "D:/SIGMA/Mystery_Forest"
+},
+"bones": [
+	{ "name": "root", "x": 961, "y": -540.39 },
+	{ "name": "base", "parent": "root" }
+],
+"slots": [
+	{ "name": "background", "bone": "base", "attachment": "bg_main" }
+],
+"skins": [
+	{
+		"name": "freespin",
+		"attachments": {
+			"background": {
+				"bg_main": { "name": "atlases/background/bg_freespin", "x": -0.96, "y": 0.42, "width": 1920, "height": 1080 }
+			}
+		}
+	},
+	{
+		"name": "main",
+		"attachments": {
+			"background": {
+				"bg_main": { "name": "atlases/background/bg_dark", "x": -0.98, "y": 0.38, "width": 1920, "height": 1080 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {}
+}
+}
