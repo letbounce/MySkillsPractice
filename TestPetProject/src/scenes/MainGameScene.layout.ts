@@ -842,7 +842,7 @@ const reelBoxAndWheelContrainer: PartialLayout = {
                 },
                 "1920/887": {
                     top: "18%",
-                    left: "0%",
+                    left: "2%",
                     width: "15%",
                 },
             },
