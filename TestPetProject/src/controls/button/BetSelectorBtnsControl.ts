@@ -27,7 +27,7 @@ export default class BetSelectorBtnsControl extends MainControl {
         const plusBtnControl = this.plusBtnControl;
         const minusBtnControl = this.minusBtnControl;
         const betControl = this.betControl;
-        const gap = 35;
+        const gap = 90;
         this.add(this.betButton);
         this.add(plusBtnControl);
         this.add(minusBtnControl);
