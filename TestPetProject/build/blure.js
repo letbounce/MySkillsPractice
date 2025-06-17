@@ -26,31 +26,35 @@ const blurSymbols = async (avoidSymbols) => {
             .map(async file => {
                 console.log(file);
                 // await blurSymbol({blur, extent}, file);
-                await blurSymbol({blur, extent}, `${src}${file}`);
+                await blurSymbol({ blur, extent }, file);
+
             }),
     );
 };
 
-const blurSymbol = async (config, src) => {
-    console.log(config, src);
+const blurSymbol = async (config, filename) => {
+    const src = `resources/origin.assets/symbols/${filename}`;
     const [sourceW, sourceH] = await getImgSize(src);
-    const {blur, extent} = config;
+    const { blur, extent } = config;
+    const outWidth = sourceW;
+    const outHeight = sourceH + (extent * 2);
+
+    const out = `resources/origin.assets/symbols/blur/${filename}`;
+    const str = `magick "${src}" -background none -gravity Center -extent ${outWidth}x${outHeight} -motion-blur 0x${blur}+90 +repage "${out}"`;
+
+
+    console.log(str);
     return new Promise((resolve, reject) => {
-        const outWidth = sourceW;
-        const outHeight = sourceH + (extent * 2);
-
-        const out = src.replace(/(\/\w+)\.png\b/g, "/blur/$1.png");
-        const str = `convert ${src} -background none -gravity Center -extent ${outWidth}x${outHeight} -motion-blur 0x${blur}+90 +repage ${out}`;
-
         exec(str, (err, stdout, stderr) => {
-            console.log(str);
             if (err || stderr) {
                 console.log(err, stderr);
                 reject();
+                return;
             }
             resolve();
         });
     });
 };
+
 
 void blurSymbols(['blank.png']);
