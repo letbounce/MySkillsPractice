@@ -1,30 +1,32 @@
 {
 "skeleton": {
-	"hash": "tlC9z0wfpUI",
+	"hash": "kKb1V+c8a8I",
 	"spine": "4.0-from-4.1.17",
-	"x": -457.94,
-	"y": -49.54,
-	"width": 2320.65,
-	"height": 1305.36,
+	"x": -1076.29,
+	"y": -565.21,
+	"width": 2860.49,
+	"height": 1899.18,
 	"images": "../atlases/base_bg_animation/",
 	"audio": ""
 },
 "bones": [
 	{ "name": "root" },
 	{ "name": "assets", "parent": "root" },
-	{ "name": "bg", "parent": "root" },
+	{ "name": "bg", "parent": "root", "y": -36.84 },
 	{ "name": "planets", "parent": "assets" },
-	{ "name": "planet_1", "parent": "planets", "x": -83.29, "y": 657.97 },
-	{ "name": "planet_2", "parent": "planets", "x": 299.84, "y": 229.04 },
+	{ "name": "planet_1", "parent": "planets", "x": -827.29, "y": 1083.97 },
+	{ "name": "planet_2", "parent": "planets", "x": -444.16, "y": 655.04 },
 	{ "name": "planet_3", "parent": "planets", "x": 1632.44, "y": 1045.26 },
-	{ "name": "planet_4", "parent": "planets", "x": 1753.21, "y": 784.99 }
+	{ "name": "planet_4", "parent": "planets", "x": 1753.21, "y": 784.99 },
+	{ "name": "rocket", "parent": "assets", "x": -575.26, "y": -266.38 }
 ],
 "slots": [
 	{ "name": "bg", "bone": "bg" },
 	{ "name": "bs_planet_1", "bone": "planet_1", "attachment": "bs_planet_1" },
 	{ "name": "bs_planet_2", "bone": "planet_2", "attachment": "bs_planet_2" },
 	{ "name": "bs_planet_3", "bone": "planet_3", "attachment": "bs_planet_3" },
-	{ "name": "bs_planet_4", "bone": "planet_4", "attachment": "bs_planet_4" }
+	{ "name": "bs_planet_4", "bone": "planet_4", "attachment": "bs_planet_4" },
+	{ "name": "rocket", "bone": "rocket", "attachment": "rocket" }
 ],
 "skins": [
 	{
@@ -41,6 +43,9 @@
 			},
 			"bs_planet_4": {
 				"bs_planet_4": { "x": 0.5, "y": 0.5, "width": 61, "height": 61 }
+			},
+			"rocket": {
+				"rocket": { "x": -53.11, "y": -74.83, "width": 328, "height": 448 }
 			}
 		}
 	},
@@ -49,6 +54,13 @@
 "animations": {
 	"animation": {},
 	"idle": {
+		"slots": {
+			"rocket": {
+				"attachment": [
+					{ "time": 4, "name": null }
+				]
+			}
+		},
 		"bones": {
 			"planet_1": {
 				"rotate": [
@@ -139,6 +151,64 @@
 					{ "time": 1.1667, "x": -1.54, "y": -3.07 },
 					{ "time": 2.4667, "x": 3.78, "y": 0.64 },
 					{ "time": 4 }
+				]
+			}
+		}
+	},
+	"rocket1": {
+		"bones": {
+			"rocket": {
+				"rotate": [
+					{
+						"value": -16.6,
+						"curve": [ 0.667, -16.6, 1.333, -11.49 ]
+					},
+					{
+						"time": 2,
+						"value": -30.2,
+						"curve": [ 2.17, -34.97, 3.333, -50.79 ]
+					},
+					{ "time": 4, "value": -48.92 }
+				],
+				"translate": [
+					{
+						"x": -996,
+						"y": 126,
+						"curve": [ 1.333, -996, 2.667, 1424.51, 1.333, 126, 2.667, 1780.11 ]
+					},
+					{ "time": 4, "x": 3056.51, "y": 2472.11 }
+				]
+			}
+		}
+	},
+	"rocket2": {
+		"bones": {
+			"rocket": {
+				"rotate": [
+					{
+						"value": 69.75,
+						"curve": [ 0.671, 69.75, 1.341, 99.71 ]
+					},
+					{
+						"time": 2,
+						"value": 110.88,
+						"curve": [ 2.686, 122.13, 3.367, 161.72 ]
+					},
+					{ "time": 4.0333, "value": 126.37 }
+				],
+				"translate": [
+					{
+						"x": 2466,
+						"y": -60,
+						"curve": [ 0.671, 2466, 1.341, 1594.97, 0.671, -60, 1.341, 1535.45 ]
+					},
+					{
+						"time": 2,
+						"x": 867.57,
+						"y": 2011.04,
+						"curve": [ 2.686, 135.17, 3.328, -1456.36, 2.686, 2489.9, 3.344, 2940.46 ]
+					},
+					{ "time": 4.0333, "x": -1522.1, "y": 2650.32 }
 				]
 			}
 		}
