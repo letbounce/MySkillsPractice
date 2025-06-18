@@ -1,11 +1,11 @@
 {
 "skeleton": {
-	"hash": "wXOspvwvikg",
+	"hash": "rjPKhf/2XwY",
 	"spine": "4.0-from-4.1.21",
 	"x": -200.9,
-	"y": -134.96,
+	"y": -160.17,
 	"width": 401.81,
-	"height": 114,
+	"height": 158.59,
 	"images": "../atlases/pop_up/",
 	"audio": ""
 },
@@ -46,7 +46,9 @@
 	{ "name": "15S", "parent": "letters", "x": 234.63, "y": -52.51 },
 	{ "name": "continue", "parent": "labels", "y": -294.97 },
 	{ "name": "continue_btn", "parent": "continue", "x": -5.37, "y": -14.89 },
-	{ "name": "continue_label", "parent": "continue", "x": -7.87, "y": -0.39 }
+	{ "name": "continue_label", "parent": "continue", "x": -7.87, "y": -0.39 },
+	{ "name": "free_spins_label", "parent": "labels" },
+	{ "name": "winlabel", "parent": "counter", "color": "585858ff" }
 ],
 "slots": [
 	{ "name": "background", "bone": "back", "attachment": "background" },
@@ -75,8 +77,10 @@
 	{ "name": "right_down_bone", "bone": "right_down_bone", "attachment": "right_down" },
 	{ "name": "right_up_bone", "bone": "right_up_bone", "attachment": "right_up" },
 	{ "name": "win_bone", "bone": "win_bone", "attachment": "win" },
+	{ "name": "winlabel", "bone": "winlabel", "attachment": "winlabel" },
 	{ "name": "you_bone", "bone": "you_bone", "attachment": "you" },
-	{ "name": "counter", "bone": "counter", "attachment": "15_enter_fs" }
+	{ "name": "counter", "bone": "counter", "attachment": "15_enter_fs" },
+	{ "name": "free_spins", "bone": "free_spins_label", "attachment": "free_spins" }
 ],
 "skins": [
 	{
@@ -149,6 +153,9 @@
 			},
 			"continue_label": {
 				"continue_label": { "width": 363, "height": 71 }
+			},
+			"free_spins": {
+				"free_spins": { "name": "free_spins_label", "y": -168.15, "width": 350, "height": 59 }
 			},
 			"left_down_bone": {
 				"left_down": { "name": "FS_left_down", "x": 0.5, "y": 20.93, "width": 155, "height": 97 }
@@ -311,7 +318,7 @@
 				"15S": { "width": 60, "height": 65 }
 			},
 			"background": {
-				"background": { "name": "enter_exit_fs_counter_star", "width": 1736, "height": 1357 }
+				"background": { "name": "enter_exit_fs_counter_star", "scaleX": 0.5772, "scaleY": 0.5772, "width": 1736, "height": 1357 }
 			},
 			"Congratulations_label": {
 				"Congratulations_label": { "name": "FS_Congratulations_label", "x": 0.5, "y": 0.5, "width": 657, "height": 221 }
@@ -321,6 +328,9 @@
 			},
 			"continue_label": {
 				"continue_label": { "width": 363, "height": 71 }
+			},
+			"free_spins": {
+				"free_spins": { "name": "in_free_spins", "y": -169.75, "width": 338, "height": 48 }
 			},
 			"left_down_bone": {
 				"left_down": { "name": "FS_left_down", "x": 0.5, "y": 21.43, "width": 155, "height": 97 }
@@ -345,7 +355,14 @@
 			}
 		}
 	},
-	{ "name": "winline" },
+	{
+		"name": "winline",
+		"attachments": {
+			"winlabel": {
+				"winlabel": { "x": 0.5, "y": -8.56, "scaleX": 1.2482, "scaleY": 1.2482, "width": 219, "height": 90 }
+			}
+		}
+	},
 	{
 		"name": "win_counter",
 		"attachments": {
@@ -398,7 +415,7 @@
 				"15S": { "width": 60, "height": 65 }
 			},
 			"background": {
-				"background": { "name": "enter_exit_fs_counter_star", "x": -2.25, "y": 44.72, "scaleX": 1.3868, "width": 1736, "height": 1357 }
+				"background": { "name": "common_counter_star", "y": 0.5, "width": 1736, "height": 1357 }
 			},
 			"Congratulations_label": {
 				"Congratulations_label": { "width": 659, "height": 223 }

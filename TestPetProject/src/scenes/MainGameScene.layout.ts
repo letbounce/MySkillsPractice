@@ -62,9 +62,10 @@ const header: PartialLayout = {
                     align: "c",
                 },
                 "1920/887": {
-                    height: "130%",
+                    height: "160%",
                     width: "100%",
                     align: "c",
+                    top: "25%",
                 },
             },
         },

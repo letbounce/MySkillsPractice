@@ -1,11 +1,11 @@
 {
 "skeleton": {
-	"hash": "3XgD1l+jaWo",
+	"hash": "zcHTlvJeagU",
 	"spine": "4.0-from-4.1.23",
-	"x": -1026.52,
-	"y": -1783.09,
-	"width": 2053.03,
-	"height": 3566.16,
+	"x": -985.45,
+	"y": -1711.77,
+	"width": 1970.91,
+	"height": 3423.51,
 	"images": "../",
 	"audio": ""
 },
@@ -22,7 +22,7 @@
 		"name": "default",
 		"attachments": {
 			"atlases/initial/bg": {
-				"atlases/initial/bg": { "scaleX": 1.0265, "scaleY": 1.0265, "width": 2000, "height": 1150 }
+				"atlases/initial/bg": { "scaleX": 1.0265, "scaleY": 1.0265, "width": 1920, "height": 1080 }
 			},
 			"atlases/initial/bg2": {
 				"atlases/initial/bg": {
@@ -31,8 +31,8 @@
 					"scaleX": 1.7831,
 					"scaleY": 1.7831,
 					"rotation": 90,
-					"width": 2000,
-					"height": 1150
+					"width": 1920,
+					"height": 1080
 				}
 			}
 		}

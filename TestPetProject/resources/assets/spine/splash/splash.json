@@ -1,11 +1,11 @@
 {
 "skeleton": {
-	"hash": "ljJza+uN0SI",
+	"hash": "R7u2H7mR4Ho",
 	"spine": "4.0-from-4.1.23",
-	"x": -433.52,
-	"y": -340.42,
-	"width": 4058.89,
-	"height": 704.74,
+	"x": -485.02,
+	"y": -349.85,
+	"width": 4049.07,
+	"height": 828.49,
 	"images": "../",
 	"audio": ""
 },
@@ -45,20 +45,19 @@
 	{ "name": "splash7_animation7", "parent": "splash1_7" }
 ],
 "slots": [
-	{ "name": "animation5", "bone": "animation5", "attachment": "atlases/splash/splash_1_wheels" },
-	{ "name": "atlases/splash/splash_2_wilds_2", "bone": "animation4", "attachment": "atlases/splash/splash_croc" },
-	{ "name": "atlases/splash/splash_wood", "bone": "animation7", "attachment": "atlases/splash/splash_wood" },
+	{ "name": "atlases/splash/splash_2_wilds_2", "bone": "animation4", "attachment": "atlases/splash/splash_ufo" },
+	{ "name": "atlases/splash/splash_wood", "bone": "animation7", "attachment": "atlases/splash/splash_panel" },
+	{ "name": "animation5", "bone": "animation5", "attachment": "atlases/splash/splash_1_alien" },
 	{ "name": "atlases/aspects/aspect1", "bone": "aspect" },
 	{ "name": "atlases/aspects/aspect3", "bone": "root" },
 	{ "name": "atlases/aspects/aspect2", "bone": "root" },
 	{ "name": "wheels_description", "bone": "wheels_description", "attachment": "atlases/pop_up/enter_fs_counter_numbers" },
-	{ "name": "bottle", "bone": "item6", "attachment": "atlases/splash/splash_bottle" },
+	{ "name": "bottle", "bone": "item6", "attachment": "atlases/splash/splash_planet" },
 	{ "name": "atlases/splash/wild", "bone": "animation8", "attachment": "atlases/splash/wild" },
-	{ "name": "atlases/splash/splash_character2", "bone": "splash3_animation3", "attachment": "atlases/splash/splash_character2" },
-	{ "name": "atlases/splash/splash_character1", "bone": "splash2_animation2", "attachment": "atlases/splash/splash_character1" },
-	{ "name": "splash1_animation1", "bone": "splash1_animation1", "attachment": "atlases/splash/splash_2_wilds_2" },
 	{ "name": "atlases/splash/splash_ropes", "bone": "splash5_animation5", "attachment": "atlases/splash/splash_ropes" },
-	{ "name": "atlases/splash/splash_hat", "bone": "splash4_animation4", "attachment": "atlases/splash/splash_hat" },
+	{ "name": "atlases/splash/splash_character2", "bone": "splash3_animation3", "attachment": "atlases/splash/splash_character2_astronaut" },
+	{ "name": "splash1_animation1", "bone": "splash1_animation1", "attachment": "atlases/splash/splash_2_wilds_2" },
+	{ "name": "atlases/splash/splash_character1", "bone": "splash2_animation2", "attachment": "atlases/splash/splash_character1_rocket" },
 	{ "name": "atlases/splash/FREE", "bone": "splash6_animation6", "attachment": "atlases/splash/FREE" },
 	{ "name": "atlases/splash/SPINS", "bone": "splash7_animation7", "attachment": "atlases/splash/SPINS" },
 	{ "name": "wild_description", "bone": "wilds_description", "attachment": "atlases/pop_up/enter_fs_counter_numbers" }
@@ -68,7 +67,7 @@
 		"name": "default",
 		"attachments": {
 			"animation5": {
-				"atlases/splash/splash_1_wheels": { "x": -43.83, "y": 69.04, "width": 285, "height": 274 }
+				"atlases/splash/splash_1_alien": { "x": 107.99, "y": 122.81, "width": 285, "height": 274 }
 			},
 			"atlases/aspects/aspect1": {
 				"atlases/aspects/aspect1": { "scaleX": 0.99, "scaleY": 0.99, "width": 1930, "height": 1090 }
@@ -80,34 +79,47 @@
 				"atlases/aspects/aspect1": { "y": 12, "width": 1930, "height": 1090 }
 			},
 			"atlases/splash/FREE": {
-				"atlases/splash/FREE": { "x": 39.5, "y": 7.98, "scaleX": 0.592, "scaleY": 0.592, "width": 149, "height": 50 }
+				"atlases/splash/FREE": { "x": 39.5, "y": 7.98, "scaleX": 0.7622, "scaleY": 0.7622, "width": 149, "height": 50 }
 			},
 			"atlases/splash/SPINS": {
-				"atlases/splash/SPINS": { "x": 39.16, "y": -30.93, "scaleX": 0.592, "scaleY": 0.592, "width": 183, "height": 51 }
+				"atlases/splash/SPINS": { "x": 39.16, "y": -30.93, "scaleX": 0.7622, "scaleY": 0.7622, "width": 183, "height": 51 }
 			},
 			"atlases/splash/splash_2_wilds_2": {
-				"atlases/splash/splash_croc": { "width": 757, "height": 483 }
+				"atlases/splash/splash_ufo": { "x": -88.56, "y": 129.68, "width": 757, "height": 483 }
 			},
 			"atlases/splash/splash_character1": {
-				"atlases/splash/splash_character1": { "x": 119.5, "y": 17.88, "scaleX": 0.5952, "scaleY": 0.5952, "width": 297, "height": 533 }
+				"atlases/splash/splash_character1_rocket": {
+					"x": 119.5,
+					"y": 17.88,
+					"scaleX": 0.5952,
+					"scaleY": 0.5952,
+					"rotation": 60.86,
+					"width": 328,
+					"height": 448
+				}
 			},
 			"atlases/splash/splash_character2": {
-				"atlases/splash/splash_character2": { "x": -97.52, "y": 7.87, "scaleX": 0.592, "scaleY": 0.592, "width": 347, "height": 543 }
-			},
-			"atlases/splash/splash_hat": {
-				"atlases/splash/splash_hat": { "x": 31.53, "y": -132.16, "scaleX": 0.592, "scaleY": 0.592, "width": 169, "height": 142 }
+				"atlases/splash/splash_character2_astronaut": { "x": -78.63, "y": 14.67, "scaleX": 0.8689, "scaleY": 0.8689, "width": 347, "height": 447 }
 			},
 			"atlases/splash/splash_ropes": {
-				"atlases/splash/splash_ropes": { "x": 22.91, "y": -49.96, "scaleX": 0.592, "scaleY": 0.592, "width": 222, "height": 398 }
+				"atlases/splash/splash_ropes": {
+					"x": 11.34,
+					"y": 179.99,
+					"scaleX": 0.7755,
+					"scaleY": 0.7755,
+					"rotation": -94.71,
+					"width": 254,
+					"height": 356
+				}
 			},
 			"atlases/splash/splash_wood": {
-				"atlases/splash/splash_wood": { "x": -26.52, "y": 31.6, "width": 276, "height": 257 }
+				"atlases/splash/splash_panel": { "x": -26.52, "y": -3.44, "width": 276, "height": 257 }
 			},
 			"atlases/splash/wild": {
-				"atlases/splash/wild": { "x": -32.47, "y": 19.09, "width": 184, "height": 50 }
+				"atlases/splash/wild": { "x": -32.47, "y": 19.09, "scaleX": 1.4875, "scaleY": 1.4875, "width": 184, "height": 50 }
 			},
 			"bottle": {
-				"atlases/splash/splash_bottle": { "x": 17.27, "y": 83.85, "width": 90, "height": 175 }
+				"atlases/splash/splash_planet": { "x": 80.19, "y": 176.83, "scaleX": 0.5186, "scaleY": 0.5186, "width": 335, "height": 366 }
 			},
 			"splash1_animation1": {
 				"atlases/splash/splash_2_wilds_2": { "y": -45.12, "scaleX": 0.5952, "scaleY": 0.5952, "width": 276, "height": 382 }
