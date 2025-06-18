@@ -1,11 +1,11 @@
 {
 "skeleton": {
-	"hash": "xSefG9rAnxw",
+	"hash": "rjPKhf/2XwY",
 	"spine": "4.0-from-4.1.21",
-	"x": -501.03,
-	"y": -411.86,
-	"width": 1002.06,
-	"height": 814.5,
+	"x": -200.9,
+	"y": -160.17,
+	"width": 401.81,
+	"height": 158.59,
 	"images": "../atlases/pop_up/",
 	"audio": ""
 },
@@ -47,7 +47,8 @@
 	{ "name": "continue", "parent": "labels", "y": -294.97 },
 	{ "name": "continue_btn", "parent": "continue", "x": -5.37, "y": -14.89 },
 	{ "name": "continue_label", "parent": "continue", "x": -7.87, "y": -0.39 },
-	{ "name": "free_spins_label", "parent": "labels" }
+	{ "name": "free_spins_label", "parent": "labels" },
+	{ "name": "winlabel", "parent": "counter", "color": "585858ff" }
 ],
 "slots": [
 	{ "name": "background", "bone": "back", "attachment": "background" },
@@ -76,6 +77,7 @@
 	{ "name": "right_down_bone", "bone": "right_down_bone", "attachment": "right_down" },
 	{ "name": "right_up_bone", "bone": "right_up_bone", "attachment": "right_up" },
 	{ "name": "win_bone", "bone": "win_bone", "attachment": "win" },
+	{ "name": "winlabel", "bone": "winlabel", "attachment": "winlabel" },
 	{ "name": "you_bone", "bone": "you_bone", "attachment": "you" },
 	{ "name": "counter", "bone": "counter", "attachment": "15_enter_fs" },
 	{ "name": "free_spins", "bone": "free_spins_label", "attachment": "free_spins" }
@@ -353,7 +355,14 @@
 			}
 		}
 	},
-	{ "name": "winline" },
+	{
+		"name": "winline",
+		"attachments": {
+			"winlabel": {
+				"winlabel": { "x": 0.5, "y": -8.56, "scaleX": 1.2482, "scaleY": 1.2482, "width": 219, "height": 90 }
+			}
+		}
+	},
 	{
 		"name": "win_counter",
 		"attachments": {
