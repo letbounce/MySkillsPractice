@@ -5,6 +5,8 @@ import GameSignals, { TBackgroundType } from "app/model/GameSignals";
 export default class MainGameControl extends SpineControl{
     private rocketTimeoutId: any = null;
     private isActive: boolean = false;
+    private rocketAnimations = ["rocket1", "rocket2"];
+    private lastRocketIndex: number = -1;
 
     constructor() {
         super("trees");
@@ -36,7 +38,15 @@ export default class MainGameControl extends SpineControl{
         const delay = 5000 + Math.random() * 5000; // 5-10 seconds
         this.rocketTimeoutId = setTimeout(async () => {
             if (!this.isActive) return;
-            await this.play("rocket1", {trackIndex: 1, loop: false, overrideAnimation: true});
+            // Alternate between rocket1 and rocket2, never repeat the same
+            let nextIndex = (this.lastRocketIndex + 1) % this.rocketAnimations.length;
+            // If first time, pick randomly
+            if (this.lastRocketIndex === -1) {
+                nextIndex = Math.floor(Math.random() * this.rocketAnimations.length);
+            }
+            const rocketAnim = this.rocketAnimations[nextIndex];
+            this.lastRocketIndex = nextIndex;
+            await this.play(rocketAnim, {trackIndex: 1, loop: false, overrideAnimation: true});
             this.scheduleRocketAnimation();
         }, delay);
     }
