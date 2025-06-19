@@ -15,6 +15,8 @@ export default class MainGameControl extends SpineControl{
     init() {
         super.init();
         this.play("idle", {loop:true, trackIndex: 0});
+        this.play("planet2_idle", {loop:true, trackIndex: 2});
+        this.play("planet3_idle", {loop:true, trackIndex: 3});
         this.isActive = true;
         this.scheduleRocketAnimation();
     }
