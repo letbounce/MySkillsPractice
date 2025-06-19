@@ -32,12 +32,13 @@ export default class TextStyles {
     };
     static readonly MESSAGE_BAR_TEXT_STYLE: Partial<ITextStyle> = {
         fontFamily: "AlmondMilk",
-        stroke: "rgba(68,62,30,0.4)",
-        strokeThickness: 4,
-        fill: ["azure", "cyan", "magenta"],
-        fontSize: 30,
-        fontWeight: "bolder",
+        stroke: "rgba(25, 115, 225, 0.4)",
+        strokeThickness: 5,
+        fill: ["white", "cyan"],
+        fontSize: 25,
+        fontWeight: "bold",
         lineJoin: "round",
+        letterSpacing: 5,
         // text under reels
     };
 
@@ -66,16 +67,16 @@ export default class TextStyles {
         fontFamily: "AlmondMilk",
         fill: ["azure", "cyan"],
         fontSize: 25,
-        fontWeight: "bold",
         lineJoin: "round",
         // balance, win, bet
     };
 
     static readonly LABEL_TEXT_STYLE: Partial<ITextStyle> = {
         fontFamily: "AlmondMilk",
+        stroke: "rgba(0, 0, 0, 0.4)",
+        strokeThickness: 3,
         fill: "white",
         fontSize: 30,
-        fontWeight: "bold",
         lineJoin: "round",
         letterSpacing: -0.5,
         // bet, win (amount)
