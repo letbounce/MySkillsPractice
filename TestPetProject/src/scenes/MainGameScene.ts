@@ -45,6 +45,7 @@ export default class MainGameScene extends BaseScene {
             shakeSignal: gameModel.game.signals.reels.shake,
         }, gameConfig.animations.logoShaking));
         await gameModel.ready;
+        this.logoControl.moveTop();
     }
 
     async activate() {
