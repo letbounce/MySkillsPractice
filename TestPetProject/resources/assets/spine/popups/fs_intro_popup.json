@@ -2,10 +2,10 @@
 "skeleton": {
 	"hash": "rjPKhf/2XwY",
 	"spine": "4.0-from-4.1.21",
-	"x": -200.9,
-	"y": -160.17,
-	"width": 401.81,
-	"height": 158.59,
+	"x": -501.03,
+	"y": -411.86,
+	"width": 1002.06,
+	"height": 814.5,
 	"images": "../atlases/pop_up/",
 	"audio": ""
 },

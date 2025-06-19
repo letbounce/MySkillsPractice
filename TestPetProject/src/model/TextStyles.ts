@@ -31,14 +31,14 @@ export default class TextStyles {
         strokeThickness: 6,
     };
     static readonly MESSAGE_BAR_TEXT_STYLE: Partial<ITextStyle> = {
-        fontFamily: "AlmondMilk",
-        stroke: "rgba(25, 115, 225, 0.4)",
+        fontFamily: "TheBoldFont",
+        stroke: "rgb(21, 77, 145)",
         strokeThickness: 5,
-        fill: ["white", "cyan"],
-        fontSize: 25,
+        fill: ["white","white", "cyan"],
+        fontSize: 30,
         fontWeight: "bold",
         lineJoin: "round",
-        letterSpacing: 5,
+       // letterSpacing: 5,
         // text under reels
     };
 
