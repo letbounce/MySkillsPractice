@@ -21,9 +21,8 @@ export default class MainGameControl extends SpineControl{
         this.scheduleRocketAnimation();
     }
 
-    protected onShowBackground(type: TBackgroundType): void 
-    {
-        type === "main" ? this.show() : this.hide();  
+    protected onShowBackground(type: TBackgroundType): void {
+        (type === "main" || type === "dark") ? this.show() : this.hide();  
     }
 
     dispose() {
