@@ -29,6 +29,7 @@ body h3 {
 }
 body p {
 	font-family: TheBoldFont;
+	font-style: italic;
 }
 footer p {
 	color: green;
