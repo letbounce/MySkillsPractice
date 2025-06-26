@@ -1,0 +1,39 @@
+@font-face {
+	font-family: AlmondMilk;
+	src: url('resources/AlmondMilk.ttf');
+}
+@font-face {
+	font-family: TheBoldFont;
+	src: url('resources/TheBoldFont.ttf');
+}
+@font-face {
+	font-family: RobotoB;
+	src: url('resources/RobotoB.ttf');
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+}
+header img {
+    width: 200px;
+}
+header nav {
+	color: blue;
+	text-align: left;
+}
+body p {
+	font-family: TheBoldFont;
+}
+footer p {
+	color: green;
+	font-family: RobotoB;
+}
+h1 {
+	color: red;
+	margin: 25px;
+}
+.italicSpecial {
+	font-style: italic;
+	color:purple;
+}
