@@ -22,6 +22,11 @@ header nav {
 	color: blue;
 	text-align: left;
 }
+body h3 {
+	text-align: center;
+	font-family: TheBoldFont;
+	color: blue;
+}
 body p {
 	font-family: TheBoldFont;
 }
@@ -33,7 +38,22 @@ h1 {
 	color: red;
 	margin: 25px;
 }
+.center-video {
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+  }
 .italicSpecial {
 	font-style: italic;
 	color:purple;
+}
+footer h5 {
+	font-family: RobotoB;
+	font-style: italic;
+}
+footer h4 {
+	font-family: RobotoB;
+	font-style: italic, bold;
+	background: rgba(0, 119, 255, 0.3);
+	display: inline-block;
 }
