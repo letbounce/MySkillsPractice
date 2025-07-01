@@ -13,7 +13,7 @@
 header {
     text-align: center;
     padding: 20px;
-    background-color: lightgray;
+    background-color: beige;
 }
 header img {
     width: 200px;
@@ -22,6 +22,10 @@ header nav {
 	color: blue;
 	text-align: left;
 }
+body {
+	background-color: bisque;
+}
+
 body h3 {
 	text-align: center;
 	font-family: TheBoldFont;
@@ -46,7 +50,7 @@ h1 {
 	color: red;
 	margin: 25px;
 }
-body div {
+body section {
 	text-align: center;
 	font-style: italic;
 }
