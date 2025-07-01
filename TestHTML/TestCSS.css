@@ -23,7 +23,6 @@ header nav {
 	text-align: left;
 }
 body h3 {
-	text-align: center;
 	font-family: TheBoldFont;
 	color: blue;
 }
@@ -38,6 +37,11 @@ footer p {
 h1 {
 	color: red;
 	margin: 25px;
+	text-align: center;
+}
+body div {
+
+	font-style: italic;
 }
 .center-video {
 	display:inline-block;
