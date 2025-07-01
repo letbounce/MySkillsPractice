@@ -31,13 +31,24 @@ body p {
 	font-family: TheBoldFont;
 	font-style: italic;
 }
+.pop-up {
+	font-family: TheBoldFont;
+	font-style: italic;
+	display: inline-block;
+	text-align: center;
+}
 footer p {
 	color: green;
 	font-family: RobotoB;
 }
 h1 {
+	text-align: center;
 	color: red;
 	margin: 25px;
+}
+body div {
+	text-align: center;
+	font-style: italic;
 }
 .center-video {
 	display:inline-block;
