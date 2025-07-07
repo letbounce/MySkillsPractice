@@ -28,14 +28,14 @@ public class SimpleCalculator {
                 System.out.println("Result: " + result);
                 break;
             case '/':
-                if (b == 0) {
-                    System.out.println("Error: Division by zero");
-                } else {
-                    result = a / b;
-                    System.out.println("Result: " + result);
-                }
-                // result = a / b;
-                // System.out.println("Result: " + result);
+                // if (b == 0) {
+                //     System.out.println("Error: Division by zero");
+                // } else {
+                //     result = a / b;
+                //     System.out.println("Result: " + result);
+                // }
+                result = a / b;
+                System.out.println("Result: " + result);
                 break;
             default:
                 System.out.println("Unknown operator");
