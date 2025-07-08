@@ -24,7 +24,11 @@ public class SimpleCalculator {
             try {
                 b = Double.parseDouble(inputB);
             } catch (NumberFormatException e) {
+<<<<<<< HEAD
                 System.out.println("Error: Invalid input for number B.");
+=======
+                System.out.println("Invalid input for number B. Try again.");
+>>>>>>> aa24c94c9f676656057b43ffdb998335b5a8a50b
                 continue;
             }
 
